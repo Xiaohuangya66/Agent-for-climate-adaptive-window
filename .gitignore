@@ -1,0 +1,37 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+
+# External models, configurations, assets and generated outputs
+models/
+data/
+datasets/
+configs/
+protocol/
+provenance/
+validation/
+results/
+outputs/
+logs/
+new_runs/
+inputs/weather/
+inputs/buildings/
+inputs/reference_assets/TMM/TMM_ML/
+inputs/reference_assets/Transopto_TRL/
+*.csv
+*.json
+*.jsonl
+*.ckpt
+*.pt
+*.pth
+*.ubj
+*.pkl
+*.npz
+*.sqlite*
+*.zip
+*.tar.gz

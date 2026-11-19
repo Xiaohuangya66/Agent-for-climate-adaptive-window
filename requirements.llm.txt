@@ -1,0 +1,2 @@
+# Install into the existing numerical Python environment.
+openai==2.53.0
